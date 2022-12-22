@@ -80,7 +80,7 @@ passport.deserializeUser(function(id,done){
 passport.use(new GoogleStrategy({
     clientID: "379911311597-n4fkgl18o3dgn16835chhbvk045ufo7m.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "http://localhost:3000/auth/google/secrets",
+    callbackURL: "https://bewildered-tux-hen.cyclic.app/auth/google/secrets",
     passReqToCallback   : true
   },
   function(request, accessToken, refreshToken, profile, done) {
